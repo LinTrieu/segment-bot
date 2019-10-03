@@ -15,7 +15,7 @@
 - [X] Update readme with help (James)
 - [x] Data analysis (Deanna & Lin)
 - [x] Create a table of keywords (Beata)
-- [ ] Data collection (James & Beata)
+- [x] Data collection (James & Beata)
 
 ### Slice 2
 - [ ] API
