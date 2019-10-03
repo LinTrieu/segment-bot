@@ -17,7 +17,7 @@ def analyse(webpage_string):
     self_serve_score, self_serve_words = word_loop(self_serve_keywords, webpage_string)
 
     sales_assisted_keywords = ["custom", "enterprise", "business", "talk to us", "speak to us", "sales team",
-                               "let's talk", "scale", "price", "pricing", "contact sales", "Request Demo",
+                               "let's talk", "scale", "price", "pricing", "contact sales", "request demo",
                                "chat with us", "package", "contact us", "proposal"]
     sales_assisted_score, sales_assisted_words = word_loop(sales_assisted_keywords, webpage_string)
 
