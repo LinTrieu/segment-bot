@@ -4,5 +4,6 @@ from urllib.request import urlopen
 def collect(url):
     #html = urlopen(url).read()
 
-    return ['some', 'words', 'from', 'the', 'html', 'html']
+    return ["individual", "professional", "productivity", "business", "team", "organisation", "custom", "enterprise",
+            "package", "scale"]
 
