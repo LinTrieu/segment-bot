@@ -18,5 +18,12 @@
 - [x] Data collection (James & Beata)
 
 ### Slice 2
-- [ ] API
-- [ ] Chrome extension 
+- [x] API
+- [x] Chrome extension 
+
+### Slice 3
+- [ ] Re-ordering of SegmentBot results by score
+- [ ] Overall design 
+    - [ ] Bootstrap
+    - [ ] Loading spinner
+    - [ ] Nested list/accordion of SegmentBot keywords
