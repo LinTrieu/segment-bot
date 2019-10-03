@@ -1,8 +1,16 @@
-# segment-bot
+# 🤖 Segment Bot
 
+## Requirements
+- [docker](https://docs.docker.com/install/overview/)
+
+## Setup
+    git clone https://github.com/PaddleHQ/segment-bot
+    make build
+
+## How to run
+    make run
 
 ## Tasks
-
 ### Slice 1
 - [ ] Update readme with help (James)
 - [ ] Data analysis (Deanna & Lin)
