@@ -1,6 +1,8 @@
 
 def analyse(webpage_string):
 
+    webpage_string =webpage_string.lower()
+
     consumer_keywords = ["individual", "student", "on-demand", "entertainment", "free", "licence", "premium", "family",
                          "multiple devices", "privacy", "game", "streaming", "utility", "security", "proxy",
                          "anti-virus", "productivity", "note", "notes", "to-do list"]
