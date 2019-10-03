@@ -25,6 +25,7 @@
 - [ ] Re-ordering of SegmentBot results by score
 - [ ] Overall design
     - [ ] Bootstrap
+    - [ ] Explainatory text on extension
     - [ ] Loading spinner
     - [ ] Nested list/accordion of SegmentBot keywords
     
