@@ -32,16 +32,15 @@ def analyse(webpage_string):
             "score": prosumer_score,
             "words": prosumer_words
         },
-        "self-serve": {
+        "self-serve business": {
             "score": self_serve_score,
             "words": self_serve_words
         },
-        "sales-assisted": {
+        "sales-assisted business": {
             "score": sales_assisted_score,
             "words": sales_assisted_words
         },
     }
-
 
 def word_loop(keywords, webpage_string):
 
