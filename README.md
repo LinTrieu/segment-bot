@@ -23,7 +23,8 @@
 
 ### Slice 3
 - [ ] Re-ordering of SegmentBot results by score
-- [ ] Overall design 
+- [ ] Overall design
     - [ ] Bootstrap
     - [ ] Loading spinner
     - [ ] Nested list/accordion of SegmentBot keywords
+    
