@@ -1,22 +1,35 @@
 
 def analyse(words):
 
-    consumer_loop(words)
-    # prosumer_loop(words)
-    # self_serve_loop(words)
-    # sales_assisted_loop(words)
+    consumer_keywords = ['html', 'list', 'consumer', 'html', 'hello', 'html', 'html']
+    consumer_score = word_loop(words, consumer_keywords)
 
+    prosumer_keywords = ['html', 'list', 'consumer', 'html', 'hello', 'some']
+    prosumer_score = word_loop(words, prosumer_keywords)
 
-def consumer_loop(words):
+    self_serve_keywords = ['list', 'consumer', 'hello']
+    self_serve_score = word_loop(words, self_serve_keywords)
 
-    consumer_keywords = ['html', 'list', 'consumer']
+    sales_assisted_keywords = ['list', 'consumer', 'html', 'hello']
+    sales_assisted_score = word_loop(words, sales_assisted_keywords)
+
+    return {
+        "consumer_score": consumer_score,
+        "prosumer_score": prosumer_score,
+        "self_serve_score": self_serve_score,
+        "sales_assisted_score": sales_assisted_score,
+    }
+
+def word_loop(words, keywords):
+
     counter = 0
 
     for i in words:
-        if i in consumer_keywords:
+        if i in keywords:
             counter += 1
 
-    print(counter)
+    return counter
+
 
 
 
@@ -31,34 +44,34 @@ def consumer_loop(words):
     # }
 
     # v2
-    return {
-        "consumer": {
-            "score" : 1,
-            "words": {
-                "foo",
-                "bar",
-            }
-        },
-        "prosumer": {
-            "score" : 1,
-            "words": {
-                "foo",
-                "bar",
-            }
-        },
-        "self_serve": {
-            "score" : 1,
-            "words": {
-                "foo",
-                "bar",
-            }
-        },
-        "sales_assisted": {
-            "score" : 1,
-            "words": {
-                "foo",
-                "bar",
-            }
-        },
-    }
+    # return {
+    #     "consumer": {
+    #         "score" : 1,
+    #         "words": {
+    #             "foo",
+    #             "bar",
+    #         }
+    #     },
+    #     "prosumer": {
+    #         "score" : 1,
+    #         "words": {
+    #             "foo",
+    #             "bar",
+    #         }
+    #     },
+    #     "self_serve": {
+    #         "score" : 1,
+    #         "words": {
+    #             "foo",
+    #             "bar",
+    #         }
+    #     },
+    #     "sales_assisted": {
+    #         "score" : 1,
+    #         "words": {
+    #             "foo",
+    #             "bar",
+    #         }
+    #     },
+    # }
 
