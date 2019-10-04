@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+        html, body {
+            width: 400px;
+            height: 330px;
+            background: #fff;
+            font-family: Arial,Helvetica,sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+            table {
+                table-layout: fixed;
+                word-wrap: break-word;
+            }
+
+            tr {
+                height: 50px;
+            }
+
+            .center {
+              position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <script src="jquery.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <img src="images/robot.gif" id="robot" class="center" alt="">
+        <div id="content" style="display: none">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                      <img src="images/robot32.png" alt="">
+                </a>
+                  <h1 class="navbar-nav mr-auto" style="color: white; text-align: left">SegmentBot</h1>
+              </div>
+            </nav>
+            <br>
+            <div style="padding-left: 20px">
+                <h2>Target customers:</h2>
+               <ul id="list">
+               </ul>
+            </div>
+            <table class="table">
+              <tbody id="data-table-body">
+                <tr id="consumer">
+                  <th scope="row" style="width:10%"><img src="images/robot16.png" alt=""></th>
+                </tr>
+                <tr id="prosumer">
+                  <th scope="row" style="width:10%"><img src="images/robot16.png" alt=""></th>
+                </tr>
+                <tr id="self-serve">
+                  <th scope="row" style="width:10%"><img src="images/robot16.png" alt=""></th>
+                </tr>
+                <tr id="sales-assisted">
+                  <th scope="row" style="width:10%"><img src="images/robot16.png" alt=""></th>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </body>
+</html>

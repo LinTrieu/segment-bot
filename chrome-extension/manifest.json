@@ -1,0 +1,31 @@
+{
+  "name": "Segment-bot",
+  "version": "1.0",
+  "description": "Extension for segment bot by AA+JC",
+  "manifest_version": 2,
+  "background": {
+        "scripts": ["popup.js"],
+        "persistent": false
+    },
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon":
+      {
+        "16": "images/robot16.png",
+        "32": "images/robot32.png",
+        "48": "images/robot64.png"
+      }
+  },
+  "icons": {
+    "16": "images/robot16.png",
+    "32": "images/robot32.png",
+    "48": "images/robot64.png"
+  },
+      "content_scripts": [
+        {
+            "js": [ "jquery.js", "popup.js" ],
+             "matches": [ "http://*/*", "https://*/*"]
+         }
+     ]
+}
