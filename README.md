@@ -24,8 +24,8 @@
 ### Slice 3
 - [ ] Re-ordering of SegmentBot results by score
 - [ ] Overall design
-    - [ ] Bootstrap
+    - [x] Bootstrap
     - [ ] Explainatory text on extension
-    - [ ] Loading spinner
+    - [x] Loading spinner
     - [ ] Nested list/accordion of SegmentBot keywords
     
