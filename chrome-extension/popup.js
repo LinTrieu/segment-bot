@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
     chrome.tabs.getSelected(null, function (tab) {
         api_url = "https://gp6j1kfg4g.execute-api.us-east-1.amazonaws.com/default/segment-bot?url=" + tab.url;
+        $('#title').html('Target users for <b>' + url_domain(tab.url)) + '</b>';
         jQuery.get(api_url, function (data) {
             console.log(data);
             jQuery('#consumer').data('score', data['consumer']['score'])
@@ -26,3 +27,10 @@ jQuery(document).ready(function() {
         })
     })
 });
+
+
+function url_domain(data) {
+  var    a      = document.createElement('a');
+         a.href = data;
+  return a.hostname.replace('www.', '');
+}
