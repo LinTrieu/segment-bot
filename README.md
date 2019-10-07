@@ -15,7 +15,7 @@
 - Turn on Developer Mode in top right hand corner
 - Click load unpacked
 - Navigate to the chrome-extension folder as this is where the manifest.json file is that is needed
-- Then you should have the extension :tada: :robot_face:
+- Then you should have the extension :tada:
 
 ## Tasks
 ### Slice 1
