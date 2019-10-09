@@ -29,10 +29,9 @@
 - [x] Chrome extension 
 
 ### Slice 3
-- [ ] Re-ordering of SegmentBot results by score
-- [ ] Overall design
+- [x] Re-ordering of SegmentBot results by score
+- [x] Overall design
     - [x] Bootstrap
-    - [ ] Explainatory text on extension
     - [x] Loading spinner
-    - [ ] Nested list/accordion of SegmentBot keywords
+    - [ ] Nested list/accordion of SegmentBot keywords - ruled out
     
