@@ -1,7 +1,8 @@
-# 🤖 Segment Bot
+# 🤖 Paddle SegmentBot - Google Chrome Extension
 
 ## Requirements
-- [docker](https://docs.docker.com/install/overview/)
+- [Docker](https://docs.docker.com/install/overview/)
+- [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
 
 ## Setup
     git clone https://github.com/PaddleHQ/segment-bot
@@ -11,9 +12,9 @@
     make run
     
 ## How to get extension locally
-- Go to this url `chrome://extensions/`
+- Navigate to the url `chrome://extensions/`
 - Turn on Developer Mode in top right hand corner
-- Click load unpacked
+- Click 'load unpacked'
 - Navigate to the chrome-extension folder as this is where the manifest.json file is that is needed
 - Then you should have the extension :tada:
 
@@ -33,5 +34,5 @@
 - [x] Overall design
     - [x] Bootstrap
     - [x] Loading spinner
-    - [ ] Nested list/accordion of SegmentBot keywords - ruled out
+    - [ ] Nested list/accordion of SegmentBot keywords - out of scope (ruled out of requirements)
     
