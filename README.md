@@ -1,4 +1,4 @@
-# 🤖 Paddle SegmentBot - Google Chrome Extension
+# 🤖 Paddle SegmentBot Tool - Google Chrome Extension
 
 ## Requirements
 - [Docker](https://docs.docker.com/install/overview/)
